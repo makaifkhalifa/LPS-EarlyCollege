@@ -3,7 +3,7 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation='http://plugin.powerschool.pearson.com plugin.xsd'
         name="LPS Early College"
-        version="24.10.1.2"
+        version="24.10.1.3"
         description="Early College Plugin for LPS">
     <publisher name="John Sandoval">
         <contact email="John.Sandoval@lawrence.k12.ma.us"/>
