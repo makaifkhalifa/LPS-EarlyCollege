@@ -44,7 +44,7 @@ This script finds the link to the state page in the student information navigati
 ```txt
 <script type="text/javascript">
 $j(document).ready(function() {
-$j( "ul#std_information > li > a[href^='state/stateMA.html?frn=']" ).parent().after($j('<li ><a href="LPS-earlycollege.html?frn=~(studentfrn)">STATE EARLY COLLEGE &tilde;</a></li>'));
+$j( "ul#std_information > li > a[href^='state/stateMA.html?frn=']" ).parent().after($j('<li ><a href="LPS-earlycollege.html?frn=~(studentfrn)">SIMS – Early College &tilde;</a></li>'));
 });
 </script>
 ```
@@ -59,7 +59,7 @@ $j(document).ready(function() {
         // Find the next sibling
         .after(
             // Add a new link to the early college page
-            $j('<li><a href="LPS-earlycollege.html?frn=~(studentfrn)">STATE EARLY COLLEGE &tilde;</a></li>')
+            $j('<li><a href="LPS-earlycollege.html?frn=~(studentfrn)">SIMS – Early College &tilde;</a></li>')
         );
 });
 </script>
