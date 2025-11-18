@@ -2,7 +2,7 @@
 	"pages": [
 		{
 			"htmlID": "navlps_sims_ec",
-			"title": "SIMS – Early College",
+			"title": "SIMS - Early College",
 			"version": "24.10.1.3",
 			"contextType": "student",
 			"requiredContext": "student",
